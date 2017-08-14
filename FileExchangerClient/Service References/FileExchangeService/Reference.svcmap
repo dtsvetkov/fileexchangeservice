@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6d434252-bf23-47b2-ab0c-da6d343bb92a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/FileExchangeService/service" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileExchangeService.wsdl" MetadataType="Wsdl" ID="be712c9b-c78c-49d0-8e56-e58416bcb00e" SourceId="1" SourceUrl="http://localhost:8000/FileExchangeService/service?wsdl" />
+    <MetadataFile FileName="service4.xsd" MetadataType="Schema" ID="9b0a1470-aac0-4b21-95e6-f1af13d83251" SourceId="1" SourceUrl="http://localhost:8000/FileExchangeService/service?xsd=xsd4" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="968e5fe1-d563-46ef-ae63-3d99efc8796b" SourceId="1" SourceUrl="http://localhost:8000/FileExchangeService/service?xsd=xsd3" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="4eb6f42f-48c0-40fc-9d7d-e38aaf749753" SourceId="1" SourceUrl="http://localhost:8000/FileExchangeService/service?xsd=xsd2" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="42af7075-3151-4dcb-876a-3d95b4b185e3" SourceId="1" SourceUrl="http://localhost:8000/FileExchangeService/service?xsd=xsd1" />
+    <MetadataFile FileName="service3.xsd" MetadataType="Schema" ID="759a20fe-4a39-4fa7-9690-772c9daae097" SourceId="1" SourceUrl="http://localhost:8000/FileExchangeService/service?xsd=xsd0" />
+    <MetadataFile FileName="service.disco" MetadataType="Disco" ID="eda29ae3-d097-4285-8e69-e47255bfb0d3" SourceId="1" SourceUrl="http://localhost:8000/FileExchangeService/service?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
